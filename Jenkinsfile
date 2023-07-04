@@ -20,7 +20,7 @@ node {
   
     stage('deploy') {
       def resourceGroup = 'pcappservicelinuxrg'
-      def webAppName = 'fayaz12'
+      def webAppName = 'fayaz1'
       // login Azure
       withCredentials([usernamePassword(credentialsId: 'mytoy1', passwordVariable: 'hi58Q~5Q2uXC4a~iR8Lxq9ZF0dQi9cgM-zJhZa5b', usernameVariable: 'AZURE_CLIENT_ID')]) {
        sh '''
