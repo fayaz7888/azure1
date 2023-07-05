@@ -22,7 +22,7 @@ node {
       def resourceGroup = 'pcappservicelinuxrg'
       def webAppName = 'fayaz12'
       // login Azure
-      withCredentials([usernamePassword(credentialsId: 'mytoy', passwordVariable: 'hi58Q~5Q2uXC4a~iR8Lxq9ZF0dQi9cgM-zJhZa5b', usernameVariable: 'AZURE_CLIENT_ID')]) {
+      withCredentials([usernamePassword(credentialsId: 'fayaz7888', passwordVariable: 'hi58Q~5Q2uXC4a~iR8Lxq9ZF0dQi9cgM-zJhZa5b', usernameVariable: 'AZURE_CLIENT_ID')]) {
        sh '''
           az login --service-principal -u 3812a865-39f5-410b-8751-8f534dd41d80 -p hi58Q~5Q2uXC4a~iR8Lxq9ZF0dQi9cgM-zJhZa5b -t d2a718e9-50aa-40bd-8f7d-68e0b9cce618
           az account set -s 483c8e70-bebd-496e-b774-d5d504463981
